@@ -4,7 +4,6 @@ public class Viento extends Instrumentos {
 
 	public Viento(String nom, double precio) {
 		super(nom, precio);
-
 	}
 
 	static {

@@ -4,7 +4,6 @@ public class Percusion extends Instrumentos {
 
 	public Percusion(String nom, double precio) {
 		super(nom, precio);
-
 	}
 
 	static {

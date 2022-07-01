@@ -4,7 +4,6 @@ public class Cuerda extends Instrumentos {
 
 	public Cuerda(String nom, double precio) {
 		super(nom, precio);
-
 	}
 
 	static {
