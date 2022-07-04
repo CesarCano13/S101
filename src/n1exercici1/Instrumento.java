@@ -1,12 +1,12 @@
 package n1exercici1;
 
-public abstract class Instrumentos {
+public abstract class Instrumento {
 
 	private String nom;
 	private double precio;
 
 	// Constructor
-	public Instrumentos(String nom, double precio) {
+	public Instrumento(String nom, double precio) {
 		this.nom = nom;
 		this.precio = precio;
 	}

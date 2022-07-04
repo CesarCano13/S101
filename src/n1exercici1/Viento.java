@@ -1,6 +1,6 @@
 package n1exercici1;
 
-public class Viento extends Instrumentos {
+public class Viento extends Instrumento {
 
 	public Viento(String nom, double precio) {
 		super(nom, precio);
