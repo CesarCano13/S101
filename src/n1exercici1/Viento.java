@@ -9,6 +9,9 @@ public class Viento extends Instrumento {
 	static {
 		System.out.println("Está sonando un instrumento de viento");
 	}
+	{
+		System.out.println("Está sonando un instrumento de viento");
+	}
 
 	// Metodos
 	public void tocar() {

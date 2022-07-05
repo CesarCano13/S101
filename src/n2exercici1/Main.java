@@ -9,11 +9,6 @@ public class Main {
 		System.out.println(movil1.getMarca() + " " + movil1.getModelo() + "\n" + movil1.llamar() + "\n"
 				+ movil1.fotografiar() + "\n" + movil1.alarma());
 
-		// ¿QUÉ MÉTODO ES MEJOR?
-		// movil1.llamar();
-		// movil1.fotografiar();
-		// movil1.alarma();
-
 	}
 
 }

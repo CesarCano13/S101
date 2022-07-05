@@ -1,6 +1,6 @@
 package n2exercici1;
 
-public class Smartphone extends Telefono implements Camara, Reloj {
+public class Smartphone extends Telefono {
 
 	private String numTelefo;
 
@@ -25,6 +25,19 @@ public class Smartphone extends Telefono implements Camara, Reloj {
 	public String llamar() {
 		String respuesta = "";
 		return respuesta = "Se está llamando al número " + numTelefo;
+	}
+
+	// Interfaces
+	@Override
+	public String fotografiar() {
+		String respuesta = "";
+		return respuesta = "Se está haciendo una foto";
+	}
+
+	@Override
+	public String alarma() {
+		String respuesta = "";
+		return respuesta = "Está sonando la alarma";
 	}
 
 }

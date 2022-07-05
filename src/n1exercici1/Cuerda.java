@@ -9,6 +9,9 @@ public class Cuerda extends Instrumento {
 	static {
 		System.out.println("Está sonando un instrumento de cuerda");
 	}
+	{
+		System.out.println("Está sonando un instrumento de cuerda");
+	}
 
 	// Metodos
 	public void tocar() {

@@ -29,19 +29,6 @@ public abstract class Telefono implements Camara, Reloj {
 		this.modelo = modelo;
 	}
 
-	// Interfaces
-	@Override
-	public String fotografiar() {
-		String respuesta = "";
-		return respuesta = "Se está haciendo una foto";
-	}
-
-	@Override
-	public String alarma() {
-		String respuesta = "";
-		return respuesta = "Está sonando la alarma";
-	}
-
 	// Metodos
 	public abstract String llamar();
 

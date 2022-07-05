@@ -9,6 +9,9 @@ public class Percusion extends Instrumento {
 	static {
 		System.out.println("Está sonando un instrumento de percusión");
 	}
+	{
+		System.out.println("Está sonando un instrumento de percusión");
+	}
 
 	// Metodos
 	public void tocar() {
