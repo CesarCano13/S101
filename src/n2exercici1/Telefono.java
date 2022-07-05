@@ -29,4 +29,12 @@ public class Telefono {
 		this.modelo = modelo;
 	}
 
+	// Metodos
+	public String llamar(String numTelefo) {
+
+		String respuesta = "";
+
+		return respuesta = "Se está llamando al número " + numTelefo  ;
+	}
+
 }
