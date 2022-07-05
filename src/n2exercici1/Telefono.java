@@ -1,6 +1,6 @@
 package n2exercici1;
 
-public abstract class Telefono {
+public class Telefono {
 
 	private String marca;
 	private String modelo;
@@ -28,8 +28,5 @@ public abstract class Telefono {
 	public void setModelo(String modelo) {
 		this.modelo = modelo;
 	}
-
-	// Metodos
-	public abstract String llamar();
 
 }
