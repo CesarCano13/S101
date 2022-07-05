@@ -1,6 +1,6 @@
 package n2exercici1;
 
-public abstract class Telefono implements Camara, Reloj {
+public abstract class Telefono {
 
 	private String marca;
 	private String modelo;

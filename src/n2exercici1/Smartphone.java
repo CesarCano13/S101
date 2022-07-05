@@ -1,6 +1,6 @@
 package n2exercici1;
 
-public class Smartphone extends Telefono {
+public class Smartphone extends Telefono implements Camara, Reloj {
 
 	private String numTelefo;
 
